@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Arizonia, Geist, Geist_Mono, Montserrat } from "next/font/google";
 import "./globals.css";
 
 const geistSans = Geist({
@@ -10,6 +10,16 @@ const geistSans = Geist({
 const geistMono = Geist_Mono({
   variable: "--font-geist-mono",
   subsets: ["latin"],
+});
+
+export const arizonia = Arizonia({
+  variable: "--font-arizonia",
+  subsets: ["latin"],
+  weight: ["400"]
+})
+
+export const montserrat = Montserrat({
+  variable: "--font-montserrat"
 });
 
 export const metadata: Metadata = {
