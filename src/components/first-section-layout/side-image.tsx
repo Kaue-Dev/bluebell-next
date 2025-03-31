@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Image1 from "@/assets/images/image-1.png";
+import Image1 from "@/assets/images/image-1.jpg";
 import { Button } from "../ui/button";
 import { CloudDownload } from "lucide-react";
 import Link from "next/link";
