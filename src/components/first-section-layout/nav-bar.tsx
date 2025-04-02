@@ -20,7 +20,7 @@ export const Navbar = () => {
     <nav className="flex items-center justify-center h-fit w-fit gap-2">
       {navbarLinks.map((link, index) => (
         <Link key={index} href={link.href}>
-          <Button className="cursor-pointer" variant={link.variant}>{link.label}{link.icon}</Button>
+          <Button variant={link.variant}>{link.label}{link.icon}</Button>
         </Link>
       ))}
     </nav>
