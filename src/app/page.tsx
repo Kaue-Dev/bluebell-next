@@ -1,4 +1,5 @@
 import { FirstSection } from "@/components/first-section";
+import { FourthSection } from "@/components/fourth-section";
 import { SecondSection } from "@/components/second-section";
 import { ThirdSection } from "@/components/third-section";
 
@@ -8,6 +9,7 @@ export default function Home() {
       <FirstSection />
       <SecondSection />
       <ThirdSection />
+      <FourthSection />
     </div>
   )
 }
