@@ -3,7 +3,7 @@ import { Card } from "./card"
 
 export const Cards = () => {
   return (
-    <div className="grid grid-cols-3 gap-10 w-full px-16">
+    <div className="lg:grid-cols-3 grid-cols-1 lg:px-16 grid gap-10 w-full">
       <Card 
         icon={<BadgeDollarSign size={36} />}
         title="Alto potencial de valorização"

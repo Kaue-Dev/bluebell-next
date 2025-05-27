@@ -9,8 +9,8 @@ const tabsContent = [
 
 export const Header = () => {
   return (
-    <div className="flex items-center justify-between w-full h-fit">
-      <h1 className="text-5xl text-bluebell-blue/80 font-semibold">Explore as oportunidades em destaque</h1>
+    <div className="lg:flex-row flex-col lg:gap-0 gap-4 flex items-center justify-between w-full h-fit">
+      <h1 className="lg:text-5xl text-2xl lg:text-start text-center text-bluebell-blue/80 font-semibold">Explore as oportunidades em destaque</h1>
       <Tabs>
         <TabsList>
           {tabsContent.map((tab) => (

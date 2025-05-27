@@ -24,8 +24,8 @@ export const Statistics = () => {
       {statisticsTextData.map((item, index) => (
         <div className="w-full" key={index}>
           <div className="flex items-center justify-start gap-4 w-full">
-            <div className="w-fit text-bluebell-gold font-bold text-8xl">{item.value}</div>
-            <p className="w-full max-w-56 font-medium text-2xl mx-auto">{item.text}</p>
+            <div className="lg:text-8xl text-5xl w-fit text-bluebell-gold font-bold">{item.value}</div>
+            <p className="lg:text-2xl text-xl w-full max-w-56 font-medium mx-auto">{item.text}</p>
           </div>
           {index !== statisticsTextData.length - 1 && <div className="w-full h-0.5 bg-slate-300 my-4"></div>}
         </div>

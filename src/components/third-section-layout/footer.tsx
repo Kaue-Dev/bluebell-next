@@ -4,8 +4,8 @@ import Link from "next/link"
 
 export const Footer = () => {
   return (
-    <div className="flex items-center justify-center w-full h-fit">
-      <div className="w-full flex justify-start">
+    <div className="lg:flex-row flex-col flex items-center justify-center w-full h-fit">
+      <div className="lg:justify-start lg:mb-0 mb-4 w-full flex justify-center">
         <Button variant="default">Ver todas as propriedades <ExternalLink size={16} /></Button>
       </div>
       <div className="flex items-center gap-6 justify-center w-fit">

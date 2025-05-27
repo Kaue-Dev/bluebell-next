@@ -42,7 +42,7 @@ const GalleryItems = [
 
 export const Gallery = () => {
   return (
-    <div className="grid grid-cols-3 gap-4">
+    <div className="lg:grid-cols-3 grid-cols-1 grid gap-4">
       {GalleryItems.map((item, index) => (
         <GalleryItem key={index} {...item} />
       ))}

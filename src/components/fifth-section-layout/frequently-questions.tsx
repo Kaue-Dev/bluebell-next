@@ -43,7 +43,7 @@ export const FrequentlyQuestions = () => {
       <Accordion type="single" collapsible className="w-full bg-slate-100 px-6 rounded-2xl">
         {FrequentlyQuestionsItens.map((item, index) => (
           <AccordionItem key={index} value={`item-${index}`} className="py-6 px-3">
-            <AccordionTrigger className="font-montserrat text-2xl font-medium text-bluebell-blue cursor-pointer hover:no-underline">{item.quest}</AccordionTrigger>
+            <AccordionTrigger className="font-montserrat lg:text-2xl text-xl font-medium text-bluebell-blue cursor-pointer hover:no-underline">{item.quest}</AccordionTrigger>
             <AccordionContent>{item.answer}</AccordionContent>
           </AccordionItem>
         ))}
