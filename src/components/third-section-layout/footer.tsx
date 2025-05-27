@@ -5,7 +5,7 @@ import Link from "next/link"
 export const Footer = () => {
   return (
     <div className="flex items-center justify-center w-full h-fit">
-      <div className="w-full flex justify-center">
+      <div className="w-full flex justify-start">
         <Button variant="default">Ver todas as propriedades <ExternalLink size={16} /></Button>
       </div>
       <div className="flex items-center gap-6 justify-center w-fit">
