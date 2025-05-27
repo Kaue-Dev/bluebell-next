@@ -4,7 +4,7 @@ interface WrapperProps {
 
 export const Wrapper = ({ children }: WrapperProps) => {
   return (
-    <div className="lg:flex-row flex-col w-full h-full flex flex-col gap-8">
+    <div className="lg:flex-row flex-col w-full h-full flex gap-8">
       {children}
     </div>
   )
